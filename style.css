@@ -647,7 +647,6 @@ h5,
 h6,
 p,
 label,
-.btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
@@ -692,7 +691,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -780,7 +779,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1045,6 +1044,10 @@ img {
     max-width: 100vw;
 }
 
-footer a {
-    color: #FFFFFF!important;
+footer a, a.social span, p {
+    color: #000000!important;
+}
+
+button {
+    color: #000000!important;
 }
